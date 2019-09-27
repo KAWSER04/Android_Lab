@@ -165,3 +165,114 @@
         android:onClick="btn1Clicked"
 
         />
+    <Button
+
+        android:id="@+id/Btn2_id"
+
+        android:layout_width="70dp"
+
+        android:layout_height="60dp"
+
+        android:layout_below="@id/Btn5_id"
+
+        android:layout_toRightOf="@id/Btn1_id"
+
+        android:text="2"
+
+        android:onClick="btn2Clicked"
+
+        /> <Button
+
+    android:id="@+id/Btn3_id"
+
+    android:layout_width="70dp"
+
+    android:layout_height="60dp"
+
+    android:layout_below="@id/Btn6_id"
+
+    android:layout_toRightOf="@id/Btn2_id"
+
+    android:text="3"
+
+    android:onClick="btn3Clicked"
+
+    />
+
+    <Button
+
+        android:id="@+id/Btnminus_id"
+
+        android:layout_width="90dp"
+
+        android:layout_height="60dp"
+
+        android:layout_below="@id/Btnplus_id"
+
+        android:layout_toRightOf="@id/Btn3_id"
+
+        android:text="-"
+
+        android:onClick="btnminusClicked"
+
+
+
+        />
+
+
+
+    <Button
+
+        android:id="@+id/Btnequal_id"
+
+        android:layout_width="110dp"
+
+        android:layout_height="60dp"
+
+        android:layout_below="@id/Btn1_id"
+
+        android:text="="
+
+        android:onClick="btnequalClicked"
+
+        />
+
+    <Button
+
+        android:id="@+id/Btndivide_id"
+
+        android:layout_width="90dp"
+
+        android:layout_height="60dp"
+
+        android:layout_below="@id/Btn1_id"
+
+        android:layout_toRightOf="@id/Btnequal_id"
+
+        android:text="/"
+
+        android:onClick="btndivideClicked"
+
+
+
+        />
+
+    <Button
+
+        android:id="@+id/Btnmulti_id"
+
+        android:layout_width="90dp"
+
+        android:layout_height="60dp"
+
+        android:layout_below="@id/Btnminus_id"
+
+        android:layout_toRightOf="@id/Btndivide_id"
+
+        android:text="*"
+
+        android:onClick="btnmultiClicked"
+
+        />
+
+</RelativeLayout>
