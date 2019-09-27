@@ -150,3 +150,18 @@
         android:onClick="btnplusClicked"
 
         />
+    <Button
+
+        android:id="@+id/Btn1_id"
+
+        android:layout_width="70dp"
+
+        android:layout_height="60dp"
+
+        android:layout_below="@id/Btn4_id"
+
+        android:text="1"
+
+        android:onClick="btn1Clicked"
+
+        />
