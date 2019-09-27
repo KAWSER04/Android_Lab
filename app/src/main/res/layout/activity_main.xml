@@ -17,3 +17,18 @@
         android:layout_height="120dp"
 
         />
+    <Button
+
+        android:id="@+id/Btn7_id"
+
+        android:layout_width="70dp"
+
+        android:layout_height="60dp"
+
+        android:layout_below="@id/result_id"
+
+        android:text="7"
+
+        android:onClick="btn7Clicked"
+
+        />
