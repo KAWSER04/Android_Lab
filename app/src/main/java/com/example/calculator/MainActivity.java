@@ -67,3 +67,56 @@ public class MainActivity extends Activity {
         op = '-';
 
     }
+    public void btndivideClicked(View v){
+        perform();
+        op = '/';
+
+    }
+    public void btnmultiClicked(View v){
+        perform();
+        op = '*';
+
+    }
+    public void btnequalClicked(View v){
+        calculate();
+
+    }
+
+    public void btnclearClicked(View v){
+        reset();
+    }
+    private void reset() {
+        // TODO Auto-generated method stub
+        str ="";
+        op ='q';
+        num = 0;
+        numtemp = 0;
+        showResult.setText("");
+    }
+    private void insert(int j) {
+        // TODO Auto-generated method stub
+        str = str+Integer.toString(j);
+        num = Integer.valueOf(str).intValue();
+        showResult.setText(str);
+
+
+    }
+    private void perform() {
+        // TODO Auto-generated method stub
+        str = "";
+        numtemp = num;
+    }
+    private void calculate() {
+        // TODO Auto-generated method stub
+        if(op == '+')
+            num = numtemp+num;
+        else if(op == '-')
+            num = numtemp-num;
+        else if(op == '/')
+            num = numtemp/num;
+        else if(op == '*')
+            num = numtemp*num;
+        showResult.setText(""+num);
+    }
+
+}
