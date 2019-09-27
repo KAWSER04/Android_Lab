@@ -132,3 +132,21 @@
         android:onClick="btn6Clicked"
 
         />
+
+    <Button
+
+        android:id="@+id/Btnplus_id"
+
+        android:layout_width="90dp"
+
+        android:layout_height="60dp"
+
+        android:layout_below="@id/Btnclear_id"
+
+        android:layout_toRightOf="@id/Btn6_id"
+
+        android:text="+"
+
+        android:onClick="btnplusClicked"
+
+        />
