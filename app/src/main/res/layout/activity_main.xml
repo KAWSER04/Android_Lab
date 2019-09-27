@@ -83,3 +83,18 @@
         android:onClick="btnclearClicked"
 
         />
+    <Button
+
+        android:id="@+id/Btn4_id"
+
+        android:layout_width="70dp"
+
+        android:layout_height="60dp"
+
+        android:layout_below="@id/Btn7_id"
+
+        android:text="4"
+
+        android:onClick="btn4Clicked"
+
+        /> 
