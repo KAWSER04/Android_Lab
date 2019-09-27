@@ -49,3 +49,20 @@
         android:onClick="btn8Clicked"
 
         />
+    <Button
+
+        android:id="@+id/Btn9_id"
+
+        android:layout_width="70dp"
+
+        android:layout_height="60dp"
+
+        android:layout_below="@id/result_id"
+
+        android:layout_toRightOf="@id/Btn8_id"
+
+        android:text="9"
+
+        android:onClick="btn9Clicked"
+
+        />
